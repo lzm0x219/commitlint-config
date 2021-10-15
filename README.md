@@ -16,6 +16,14 @@ npm install @commitlint/cli @0x219/commitlint-config --save-dev
 yarn add @commitlint/cli @0x219/commitlint-config --save-dev
 ```
 
+In commitlint.config.js:
+
+```js
+module.exports = {
+  extends: ['@0x219'],
+};
+```
+
 ## Thanks
 
 [commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Lint commit messages.

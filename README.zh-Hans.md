@@ -16,6 +16,13 @@ npm install @commitlint/cli @0x219/commitlint-config --save-dev
 yarn add @commitlint/cli @0x219/commitlint-config --save-dev
 ```
 
+在 commitlint.config.js 中:
+
+```js
+module.exports = {
+  extends: ['@0x219'],
+};
+```
 ## 致谢
 
 [commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Git提交消息分析工具
