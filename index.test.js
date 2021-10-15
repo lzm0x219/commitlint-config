@@ -41,7 +41,7 @@ const errors = {
   typeEnum: {
     level: 2,
     message:
-      "type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test]",
+      "type must be one of [build, break, chore, ci, docs, feat, fix, perf, refactor, revert, release, style, test, wip]",
     name: "type-enum",
     valid: false,
   },
@@ -114,7 +114,6 @@ const warnings = {
 
 test("type-enum", async () => {
   const result = await commitLint(messages.invalidTypeEnum);
-
   expect(result.valid).toBe(false);
   expect(result.errors).toEqual([errors.typeEnum]);
 });
