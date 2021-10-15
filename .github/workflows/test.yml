@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 代码检出
+        uses: actions/checkout@v2
+      - name: 准备Nodejs环境
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: 14.17.0
+      - name: 缓存项目依赖
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.pnpm-store
+            D:\.pnpm-store
+            **/node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}
+      - name: 项目安装
+        run: |
+          npm i pnpm -g
+          pnpm install
+      - name: 项目测试
+        run: pnpm test

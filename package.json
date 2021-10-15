@@ -1,0 +1,57 @@
+{
+  "name": "@0x219/commitlint-config",
+  "version": "1.0.0",
+  "description": "⚙️ A shareable commitlint config enforcing conventional commits.",
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config",
+    "angular"
+  ],
+  "homepage": "https://github.com/0x219/commitlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/0x219/commitlint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x219/commitlint-config.git"
+  },
+  "license": "MIT",
+  "author": "0x219 <lzm0x219@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "commitlint": {
+    "extends": [
+      "./"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,md,json}": "prettier",
+    "package.json": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/lint": "13.2.0",
+    "@commitlint/types": "13.2.0",
+    "babel-jest": "27.2.5",
+    "husky": "7.0.2",
+    "jest": "27.2.5",
+    "lint-staged": "11.2.3",
+    "prettier": "2.4.1",
+    "sort-package-json": "1.52.0",
+    "ts-jest": "27.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
