@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v1.0.1 (2021-10-15)
+
+#### ✅ Test
+- Fix and pass type test cases.
+#### 📝 Documentation
+- Add package rule description.
+- Add some badges for the package.
+- Add package use cases.
+
 ## v1.0.0 (2021-10-15)
 
 #### ✨ Features
