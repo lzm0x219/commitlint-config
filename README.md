@@ -55,4 +55,4 @@ There must be a space before the footer, and the maximum length is 100.
 
 ## License
 
-[MIT](./LICENSE) ⓒ Simon
+[MIT](./LICENSE) ⓒ Taoist Priest

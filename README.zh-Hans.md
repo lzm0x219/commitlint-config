@@ -53,4 +53,4 @@ module.exports = {
 
 ## 许可证
 
-[MIT](./LICENSE) ⓒ Simon
+[MIT](./LICENSE) ⓒ Taoist Priest
