@@ -2,7 +2,7 @@
 
 # @0x219/commitlint-config
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![npm (scoped)](https://img.shields.io/npm/v/@0x219/commitlint-config?style=flat-square) ![NPM](https://img.shields.io/npm/l/@0x219/commitlint-config?style=flat-square)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![npm (scoped)](https://img.shields.io/npm/v/@0x219/commitlint-config?style=flat-square) ![npm](https://img.shields.io/npm/dm/@0x219/commitlint-config?color=yellow&style=flat-square) ![NPM](https://img.shields.io/npm/l/@0x219/commitlint-config?style=flat-square)
 
 ⚙️ 一个强制执行[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/)的可共享 `commitlint` 配置。
 
