@@ -38,8 +38,8 @@
     "conventional-changelog-conventionalcommits": "4.6.1"
   },
   "devDependencies": {
-    "@babel/core": "7.15.8",
-    "@babel/preset-env": "7.15.8",
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.0",
     "@commitlint/cli": "13.2.1",
     "@commitlint/lint": "13.2.0",
     "@commitlint/types": "13.2.0",
