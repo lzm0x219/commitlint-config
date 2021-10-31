@@ -7,11 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v1.0.2 (2021-10-31)
+
+#### 📦 Dependency
+
+- Update babel monorepo to v7.16.0
+- Update dependency lint-staged to v11.2.6
+- Update dependency husky to v7.0.4
+- Update jest monorepo to v27.3.1
+- Update dependency ts-jest to v27.0.7
+
+#### 📝 Documentation
+
+- Add download badge
+
 ## v1.0.1 (2021-10-15)
 
 #### ✅ Test
+
 - Fix and pass type test cases.
+
 #### 📝 Documentation
+
 - Add package rule description.
 - Add some badges for the package.
 - Add package use cases.
@@ -21,13 +38,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### ✨ Features
 
 - `rules`
-  - Type: Type cannot be empty, must be lowercase.（`build` | `break` | `chore` | `ci` | `docs` | `feat` | `fix` | `perf` | `refactor` | `revert` | `release` | `style`  | `test` | `wip`）
+
+  - Type: Type cannot be empty, must be lowercase.（`build` | `break` | `chore` | `ci` | `docs` | `feat` | `fix` | `perf` | `refactor` | `revert` | `release` | `style` | `test` | `wip`）
 
   - Body: There must be a space before the body, and the maximum length is 100.
 
   - Footer: There must be a space before the footer, and the maximum length is 100.
 
   - Subject: The subject cannot be empty and cannot end with. Never allowed "sentence-case", "start-case", "pascal-case", "upper-case".
+
 - `prompt`
   - Add type question.
   - Add scope question.
