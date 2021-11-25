@@ -11,7 +11,7 @@ specifiers:
   husky: 7.0.4
   jest: 27.3.1
   lint-staged: 12.0.2
-  prettier: 2.4.1
+  prettier: 2.5.0
   sort-package-json: 1.53.1
   ts-jest: 27.0.7
 
@@ -28,7 +28,7 @@ devDependencies:
   husky: 7.0.4
   jest: 27.3.1
   lint-staged: 12.0.2
-  prettier: 2.4.1
+  prettier: 2.5.0
   sort-package-json: 1.53.1
   ts-jest: 27.0.7_0266dde0ead5d510cc7402bbe04114fb
 
@@ -3907,8 +3907,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.0:
+    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
