@@ -12,7 +12,7 @@ jobs:
       - name: 代码检出
         uses: actions/checkout@v3
       - name: 准备Nodejs环境
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.0.0
         with:
           node-version: 14.17.0
       - name: 缓存项目依赖
