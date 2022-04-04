@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14.17.0
       - name: 缓存项目依赖
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.pnpm-store
