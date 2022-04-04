@@ -12,7 +12,7 @@ specifiers:
   jest: 27.5.1
   lint-staged: 12.3.7
   prettier: 2.5.1
-  sort-package-json: 1.54.0
+  sort-package-json: 1.55.0
   ts-jest: 27.1.4
 
 dependencies:
@@ -29,7 +29,7 @@ devDependencies:
   jest: 27.5.1
   lint-staged: 12.3.7
   prettier: 2.5.1
-  sort-package-json: 1.54.0
+  sort-package-json: 1.55.0
   ts-jest: 27.1.4_6cdbb6b4b55ad9da5df430cece3e7cce
 
 packages:
@@ -4278,8 +4278,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/1.54.0:
-    resolution: {integrity: sha512-MA0nRiSfZ4/CNM/9rz70Hwq4PpvtBc3v532tzQSmoaLSdeBB3cCd488xmNruLL0fb/ZdbKlcaDDudwnrObbjBw==}
+  /sort-package-json/1.55.0:
+    resolution: {integrity: sha512-xhKvRD8WGbALjXQkVuk4/93Z/2NIO+5IzKamdMjN5kn3L+N+M9YWQssmM6GXlQr9v1F7PGWsOJEo1gvXOhM7Mg==}
     hasBin: true
     dependencies:
       detect-indent: 6.1.0
