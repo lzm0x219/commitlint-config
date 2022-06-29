@@ -35,7 +35,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "4.6.3"
+    "conventional-changelog-conventionalcommits": "5.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.17.10",
