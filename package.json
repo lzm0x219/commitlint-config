@@ -40,8 +40,8 @@
   "devDependencies": {
     "@babel/core": "7.17.10",
     "@babel/preset-env": "7.17.10",
-    "@commitlint/cli": "17.0.0",
-    "@commitlint/lint": "17.0.0",
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/lint": "17.0.3",
     "@commitlint/types": "17.0.0",
     "babel-jest": "28.1.2",
     "husky": "8.0.1",
