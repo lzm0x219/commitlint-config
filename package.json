@@ -43,13 +43,13 @@
     "@commitlint/cli": "17.0.0",
     "@commitlint/lint": "17.0.0",
     "@commitlint/types": "17.0.0",
-    "babel-jest": "27.5.1",
+    "babel-jest": "28.1.2",
     "husky": "8.0.1",
-    "jest": "27.5.1",
+    "jest": "28.1.2",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
     "sort-package-json": "1.57.0",
-    "ts-jest": "27.1.5"
+    "ts-jest": "28.0.5"
   },
   "publishConfig": {
     "access": "public"
