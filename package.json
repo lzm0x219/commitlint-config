@@ -49,7 +49,7 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "sort-package-json": "1.57.0",
-    "ts-jest": "28.0.5"
+    "ts-jest": "28.0.8"
   },
   "publishConfig": {
     "access": "public"
